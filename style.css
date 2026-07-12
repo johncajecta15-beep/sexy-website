@@ -24,7 +24,8 @@ form {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: rgb(35, 48, 72);
+    background: rgba(217, 206, 206, 0.1);
+    border-radius: 30px;
 }
 
 form input {
@@ -38,4 +39,14 @@ form input {
 }
 form input::placeholder {
     color: darkblue;
+}
+.socials1 {
+    background-color: crimson;
+    color: black;
+    border: none;
+}
+.socials2 {
+    background-color:black;
+    color: crimson;
+    border: none;
 }
